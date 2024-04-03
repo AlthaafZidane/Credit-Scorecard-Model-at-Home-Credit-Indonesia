@@ -1,5 +1,5 @@
 # **Credit Scorecard Model**
-#### Virtual Internship Experience : Bank Muamalat – Business Intelligence Analyst
+#### Virtual Internship Experience : Home Credit Indonesia – Data Scientist
 #### Author : Althaaf Athaayaa Daffa Qushayyizidane
 
 ![HI](PICT/1.jpg)
