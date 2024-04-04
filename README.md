@@ -1,3 +1,5 @@
+![Logo](PICT/31.png)
+
 # **Credit Scorecard Model**
 #### Virtual Internship Experience : Home Credit Indonesia – Data Scientist
 #### Author : Althaaf Athaayaa Daffa Qushayyizidane
