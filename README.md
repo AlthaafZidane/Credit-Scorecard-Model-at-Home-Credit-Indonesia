@@ -985,7 +985,7 @@ roc_auc (crossval test): 0.9019102012522078
 
 # **CONCLUSION**
 
-#### Model yang dipilih adalah model XGBoost yang sudah di tuning parameternya. Metrix utama yang digunakan adalah `Accuracy` yang dimana Metrik ini menunjukkan persentase prediksi yang benar dibandingkan dengan total prediksi. Accuracy yang tinggi menunjukkan bahwa model dapat memprediksi skor kredit dengan baik.
+#### Model yang dipilih adalah model `XGBoost` yang sudah di tuning parameternya. Metrix utama yang digunakan adalah `ROC-AUC` yang dimana menunjukkan seberapa baik model membedakan antara kelas. Nilai AUC yang tinggi menunjukkan bahwa model memiliki kemampuan yang baik untuk membedakan antara peminjam yang berisiko dan yang tidak, serta `Precision` yang dimana kita tidak ingin **False Positive** tinggi atau mengurangi **False Positive** sekecil-kecilnya ( untuk meminimalkan jumlah peminjam berisiko tinggi yang disetujui ).<br>
 
 <br>
 <br>
@@ -995,7 +995,7 @@ roc_auc (crossval test): 0.9019102012522078
 
 ## **XGBoost Model**
 
-Model ini memiliki score accuracy yang tinggi yakni mencapai **0.86** dengan probabilitas machine learning sebesar **0.86**. Model tidak overfit maupun underfit yang dapat disebut sebagai model **_best fit_**. <br>
+Model ini memiliki score `ROC-AUC` yang tinggi yakni mencapai **0.92** dan `Precision` sebesar **0.94**. Model tidak overfit maupun underfit yang dapat disebut sebagai model ***best fit***.
 
 ![HI](PICT/29.png)
 ![HI](PICT/30.png)
